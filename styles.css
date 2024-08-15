@@ -30,13 +30,12 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
 /* Header */
 .main-header {
     text-align: center;
-    padding: 420px 20px;
+    padding: 420px 20px 420px 20px;
     margin: -8rem -8rem 5rem -8rem;
-    background-image: url("header_img.png");
+    background-image: url("images/header_img.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +51,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(9, 8, 12, 0.67); /* Optional: dark overlay for better text visibility */
+    background-color: rgba(9, 8, 12, 0.67);
     z-index: -1;
 }
 
@@ -187,7 +186,7 @@ html {
 /* Contact Section */
 .contact-section {
     margin: 5rem 0;
-    padding: 60px 20px;
+    padding: 90px 20px;
     background-color: #09080c;
     text-align: center;
 }
@@ -284,7 +283,12 @@ html {
     }
 
     .main-header {
-        margin: calc(-5% - 3rem) -8rem 5rem -8rem;
+        margin: calc(-5% - 0.5rem) -8rem 5rem -8rem;
+        padding: 270px 20px 570px 20px;
+    }
+
+    .main-header h1 {
+        margin-top: -3rem;
     }
 
     .portfolio-grid {
