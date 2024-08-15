@@ -34,8 +34,8 @@ html {
 .main-header {
     text-align: center;
     padding: 420px 20px 420px 20px;
-    margin: -8rem -8rem 5rem -8rem;
-    background-image: url("header_img.png");
+    margin: -8rem -8rem 1rem -8rem;
+    background-image: url("images/header_img.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ html {
 
 /* About Section */
 .about-section {
-    padding: 60px 20px;
+    padding: 0 20px 60px 20px;
     margin: 5rem 0;
     text-align: center;
     background-color: #09080c;
@@ -283,7 +283,7 @@ html {
     }
 
     .main-header {
-        margin: calc(-5% - 0.5rem) -8rem 5rem -8rem;
+        margin: calc(-5% - 0.5rem) -8rem 1rem -8rem;
         padding: 270px 20px 570px 20px;
     }
 
