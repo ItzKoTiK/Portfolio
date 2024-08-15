@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(MarckScript-Regular.ttf);
+}
+
 main {
     margin: 8rem;
 }
@@ -12,6 +17,7 @@ body,
 html {
     overflow-x: hidden;
 }
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -30,11 +36,12 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /* Header */
 .main-header {
     text-align: center;
     padding: 420px 20px 420px 20px;
-    margin: -8rem -8rem 1rem -8rem;
+    margin: -8rem -8rem 0 -8rem;
     background-image: url("images/header_img.png");
     background-size: cover;
     background-position: center;
@@ -56,6 +63,7 @@ html {
 }
 
 .main-header h1 {
+    font-family: myFirstFont;
     background: linear-gradient(120deg, #754eb4, #e1cf70);
     -webkit-background-clip: text;
     background-clip: text;
@@ -91,8 +99,8 @@ html {
 
 /* About Section */
 .about-section {
-    padding: 0 20px 60px 20px;
-    margin: 5rem 0;
+    padding: 40px 20px 60px 20px;
+    margin: 1rem 0;
     text-align: center;
     background-color: #09080c;
 }
@@ -283,7 +291,7 @@ html {
     }
 
     .main-header {
-        margin: calc(-5% - 0.5rem) -8rem 1rem -8rem;
+        margin: calc(-5% - 0.5rem) -8rem 0 -8rem;
         padding: 270px 20px 570px 20px;
     }
 
